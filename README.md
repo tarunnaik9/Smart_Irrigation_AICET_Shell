@@ -61,6 +61,17 @@ The system uses a **Decision Tree Classifier** trained on a dataset to make pred
 - `irrigation_machine.csv` – Dataset containing environmental and crop data.
 
 ---
+##  How to Run the App
+
+1. Clone the repository  
+2. Install dependencies:
+   pip install streamlit pandas numpy scikit-lear
+
+3. Run the app:  
+4. Open the local URL provided in the terminal (usually `http://localhost:8503`)
+
+
+---
 
 ##  Technologies Used
 
@@ -69,4 +80,12 @@ The system uses a **Decision Tree Classifier** trained on a dataset to make pred
 - NumPy
 - Scikit-learn
 - Jupyter Notebook
+
+---
+##  Future Scope
+
+- Integrate real-time IoT sensor streams for live data  
+- Deploy on cloud for mobile/web access  
+- Trigger SMS/email alerts based on prediction  
+- Extend system to multiple crop types and locations
 
